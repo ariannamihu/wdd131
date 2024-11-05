@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    margin: 0;
+}
+
+header{
+    grid-column: 1 /4;
+    background-color: lightgray;
+    color: black;
+}
+
+.title{
+    padding: 2rem;
+}
+
+.navigation { 
+  display: flex;
+  align-items: center;
+  
+}
+
+.navigation a {
+    display: block;
+    color: black;
+    background-color: #00b4d8;
+    padding: 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    flex: 1 1 auto;
+} 
+
+.main{
+    grid-column: 1 /3;
+    padding: 2rem;
+    background-color: #caf0f8;
+}
+
+.aside{
+    padding: 2rem;
+    background-color: #90e0ef;
+}
+
+footer{
+    grid-column: 1 /4;
+    padding: 2rem;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+}
