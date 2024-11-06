@@ -25,7 +25,6 @@ header{
 .navigation { 
   display: flex;
   align-items: center;
-  
 }
 
 .navigation a {
@@ -37,6 +36,7 @@ header{
     text-align: center;
     flex: 1 1 auto;
     font-size: 1rem;
+    font-family: "Poiret One", sans-serif;
 } 
 
 nav a:hover {
@@ -49,6 +49,9 @@ main{
     max-width: 1300px;
 }
 
+p, a{
+    font-family: 'Courier New', Courier, monospace;
+}
 .card1{
     grid-column: 1 /3;
     padding: 2rem;
