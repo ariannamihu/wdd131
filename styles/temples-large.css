@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 700px){
 
     main{
         margin: 1rem auto;
@@ -16,7 +16,46 @@
         grid-column: 1 / -1;
     }
 
+.title{
+    grid-column: 1/2;
+}
+
     figure{
         max-width: 300px;
     }
+
+    .navigation {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    
+    .navigation a {
+        display: flex;
+        color: black;
+        background-color: #caf0f8;
+        padding: 0.75rem;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1rem;
+        font-family: "Poiret One", sans-serif;
+        justify-content: center;
+    } 
+    
+    nav a:hover {
+        text-decoration:underline;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        background-color: #f4f4f4;
+        /* justify-content: center; */
+    }
+    
+    /* .menu.active {
+        display: flex;
+    } */
+
 }
