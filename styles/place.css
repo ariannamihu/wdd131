@@ -1,5 +1,7 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+:root{
+    font-family: "Bodoni Moda", serif;
     background-color: rgb(232, 227, 236);
     text-align: center;
 }
