@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Country or Place - Arianna Mihu</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Arianna Mihu, Country">
+    <meta name="author" content="Arianna Mihu">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Siesta Key - Florida</h1>
+    </header>
+
+    <main>
+        <picture >
+            <source srcset="images/siesta_key.webp" media="(min-width: 700px)" >
+            <img class="hero_image" src="images/siesta_key_small.webp" alt="Beach in Florida">
+        </picture>
+
+        <div class="data">
+            <h2>Data</h2>
+            <ul>
+                <p>Label: Value:</p>
+            </ul>
+        </div>
+
+        <div class="weather">
+            <h2>Weather</h2>
+            <img class="weather_icon" src="images/weather_icon.svg" alt="weather icon" width="50px">
+            <ul>
+                <p>Temperature: 50° F</p>
+                <p>Wind Speed: 5 mph</p>
+                <p><span id="windchill"></span></p>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Arianna Mihu, Utah</p>
+        <p>Last modified: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
