@@ -46,19 +46,23 @@
     .navigation li:hover {
         text-decoration:underline;
     }
-    
+
+
+    /* .menu.active {
+        display: flex;
+    } */
+
+
     .temple-card {
         /* display: flex; */
+        /* justify-content: center; */
         width: 400px;
         align-items: center;
         margin: 5px;
         padding: 20px;
         background-color: #f4f4f4;
-        /* justify-content: center; */
     }
     
-    /* .menu.active {
-        display: flex;
-    } */
+    
 
 }
