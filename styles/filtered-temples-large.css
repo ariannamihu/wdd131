@@ -43,7 +43,7 @@
         justify-content: center;
     } 
     
-    .navigation li:hover {
+    .navigation a:hover {
         text-decoration:underline;
     }
 
