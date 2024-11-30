@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="WDD 131 - An album showcasing different temples">
+    <meta name="author" content="Arianna Mihu">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <link rel="stylesheet" href="styles/filtered-temple.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="title">Temple Album</h1>
+
+        <ul class="navigation">
+            <li class="nav-item" data-criteria="Old">Old</li>
+            <li class="nav-item" data-criteria="New">New</li>
+            <li class="nav-item" data-criteria="Large">Large</li>
+            <li class="nav-item" data-criteria="Small">Small</li>
+            <li class="nav-item" data-criteria="Home">Home</li>
+        </ul>
+    </header>
+    <main>
+        <h2 id="heading">Home</h2>
+        <div id="temple-cards"></div>
+        
+      
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> Arianna Mihu, Utah</p>
+        <p>Last modified: <span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
