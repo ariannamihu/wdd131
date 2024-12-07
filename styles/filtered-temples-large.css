@@ -12,6 +12,8 @@
         place-items: center;
     }
 
+    
+
     #heading{
         grid-column: 1 / -1;
     }

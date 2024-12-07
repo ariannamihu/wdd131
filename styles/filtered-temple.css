@@ -20,7 +20,7 @@ header{
 }
 
 .title{
-    grid-column: 1/-1;
+    grid-column: 1/2;
 }
 
 main{
